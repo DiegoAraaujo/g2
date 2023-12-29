@@ -33,9 +33,11 @@ section#celular{
 }
 
 section#logos {
-    width: 20px;
+    width: 420px;
     position: relative;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
 }
 
 section#logos img{
@@ -58,6 +60,6 @@ iframe#tela{
   top: 11px;
   left:20px ;
   width:335px ;
-  height:165px;
+  height:170px;
   overflow: auto;
 }
